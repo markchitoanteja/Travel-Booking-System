@@ -57,7 +57,7 @@
                     <p>
                         Copyright &copy;<script>
                             document.write(new Date().getFullYear());
-                        </script> All rights reserved | Travel Booking System.
+                        </script> All rights reserved | Grand Tours.
                     </p>
                 </div>
             </div>

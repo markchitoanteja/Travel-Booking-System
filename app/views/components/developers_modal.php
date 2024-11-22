@@ -12,7 +12,7 @@
                 <div class="main-content">
                     <div class="row mb-3">
                         <div class="col-12 text-center">
-                            <h4 class="font-weight-bold text-primary">Travel Booking System</h4>
+                            <h4 class="font-weight-bold text-primary">Grand Tours</h4>
                             <hr class="w-50 mx-auto">
                         </div>
                     </div>
@@ -22,7 +22,7 @@
                                 <i class="fa fa-book"></i> Description:
                             </h6>
                             <p class="text-justify">
-                                The Travel Booking System is a user-friendly platform designed to simplify the booking process for Public Utility Vans (PUVs) in Can-Avid. It offers a seamless experience for both passengers and operators, promoting convenience and efficient trip management.
+                                Grand Tours is a user-friendly platform designed to simplify the booking process for Public Utility Vans (PUVs) in Can-Avid. It offers a seamless experience for both passengers and operators, promoting convenience and efficient trip management.
                             </p>
                         </div>
                     </div>

@@ -29,7 +29,7 @@
                                     <p class="price ml-auto"><?= $van["capacity"] ?> <span> Seats</span></p>
                                 </div>
                                 <p class="d-flex mb-0 d-block">
-                                    <a href="javascript:void(0)" van_id="<?= $van["id"] ?>" class="btn btn-primary py-2 mr-1 <?= $van["status"] == "available" ? "book_now" : "unavailable" ?>">Book now</a>
+                                    <a href="javascript:void(0)" van_id="<?= $van["id"] ?>" class="btn btn-primary py-2 mr-1 <?= session('user_id') ? ($van['status'] == 'available' ? 'book_now' : 'unavailable') : 'needs-login' ?>">Book now</a>
                                     <a href="javascript:void(0)" van_id="<?= $van["id"] ?>" class="btn btn-secondary py-2 ml-1 van_details">Details</a>
                                 </p>
                             </div>

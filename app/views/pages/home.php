@@ -58,7 +58,7 @@
                     </div>
                     <div class="col-md-8 d-flex align-items-center">
                         <div class="services-wrap rounded-right w-100">
-                            <h3 class="heading-section mb-4">Reliable and Affordable Travel Booking</h3>
+                            <h3 class="heading-section mb-4">Reliable and Affordable Booking</h3>
                             <div class="row d-flex mb-4">
                                 <div class="col-md-4 d-flex align-self-stretch ftco-animate">
                                     <div class="services w-100 text-center">
@@ -142,10 +142,10 @@
             <div class="col-md-6 wrap-about ftco-animate">
                 <div class="heading-section heading-section-white pl-md-5">
                     <span class="subheading">About Us</span>
-                    <h2 class="mb-4">Welcome to Travel Booking</h2>
+                    <h2 class="mb-4">Welcome to Grand Tours</h2>
 
                     <p>We provide a reliable platform to book Public Utility Vans across the Can-Avid. Our mission is to make travel easier, safer, and more convenient, connecting you to quality transport options wherever you need to go.</p>
-                    <p>Whether you're planning a family trip, a group outing, or just need a convenient way to travel, our Travel Booking System is here to help. Enjoy seamless booking, transparent pricing, and trusted service providers, all at your fingertips.</p>
+                    <p>Whether you're planning a family trip, a group outing, or just need a convenient way to travel, Grand Tours is here to help. Enjoy seamless booking, transparent pricing, and trusted service providers, all at your fingertips.</p>
                     <p><a href="vans" class="btn btn-primary py-3 px-4">Find a Van</a></p>
                 </div>
             </div>
@@ -231,7 +231,7 @@
                             <div class="user-img mb-2" style="background-image: url(assets/images/client-2.png)">
                             </div>
                             <div class="text pt-4">
-                                <p class="mb-4">“Great service at maayos ang booking. Mabilis din ang proseso kaya nakakatipid kami sa oras. Salamat, Travel Booking!”</p>
+                                <p class="mb-4">“Great service at maayos ang booking. Mabilis din ang proseso kaya nakakatipid kami sa oras. Salamat, Grand Tours!”</p>
                                 <p class="name">Juan Dela Cruz</p>
                                 <span class="position">Business Traveler</span>
                             </div>
@@ -242,7 +242,7 @@
                             <div class="user-img mb-2" style="background-image: url(assets/images/client-3.png)">
                             </div>
                             <div class="text pt-4">
-                                <p class="mb-4">“Perfect for long-distance travels! Maayos at safe ang biyahe namin papuntang Ilocos. Highly recommended ang Travel Booking!”</p>
+                                <p class="mb-4">“Perfect for long-distance travels! Maayos at safe ang biyahe namin papuntang Ilocos. Highly recommended ang Grand Tours!”</p>
                                 <p class="name">Luis Ramirez</p>
                                 <span class="position">Frequent Traveler</span>
                             </div>
@@ -253,7 +253,7 @@
                             <div class="user-img mb-2" style="background-image: url(assets/images/client-4.png)">
                             </div>
                             <div class="text pt-4">
-                                <p class="mb-4">“Convenient at mabilis ang booking. Hindi na kami nag-abala sa paghahanap ng van papuntang airport. Thanks, Travel Booking!”</p>
+                                <p class="mb-4">“Convenient at mabilis ang booking. Hindi na kami nag-abala sa paghahanap ng van papuntang airport. Thanks, Grand Tours!”</p>
                                 <p class="name">Ana Lopez</p>
                                 <span class="position">Tourist</span>
                             </div>
