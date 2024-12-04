@@ -26,9 +26,6 @@ if (session("user_type") != "admin") {
                             <div class="col-6">
                                 <h3 class="card-title">List of Messages</h3>
                             </div>
-                            <div class="col-6">
-                                <button class="btn btn-primary float-right" data-toggle="modal" data-target="#new_van_modal"><i class="fa fa-plus mr-1"></i> New Van</button>
-                            </div>
                         </div>
                     </div>
                     <div class="card-body">
