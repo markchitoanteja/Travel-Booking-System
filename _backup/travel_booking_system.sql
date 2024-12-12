@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 19, 2024 at 02:00 PM
+-- Generation Time: Dec 12, 2024 at 09:27 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -107,15 +107,7 @@ CREATE TABLE `vans` (
 --
 
 INSERT INTO `vans` (`id`, `uuid`, `model`, `brand`, `capacity`, `image`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'a9e66f4b6c011a60d82515520c36f707', 'HiAce', 'Toyota', 15, 'toyota_hiace.png', 'available', '2024-11-14 15:37:59', '2024-11-16 12:56:02'),
-(2, '150ecbfc43044134185f73ca21d45315', 'NV350', 'Nissan', 12, 'nissan_nv350.png', 'available', '2024-11-14 15:37:59', '2024-11-16 12:56:19'),
-(3, '03add13a34f91b85e5ed70cb0b75df9a', 'Starex', 'Hyundai', 11, 'hyundai_starex.png', 'available', '2024-11-14 15:37:59', '2024-11-16 12:56:36'),
-(4, '312d136db99b84e49db6972b2e246b22', 'Transit', 'Ford', 14, 'ford_transit.png', 'available', '2024-11-14 15:37:59', '2024-11-16 12:56:47'),
-(5, '04ee914bef0ea688ab53c64019d704a3', 'Urvan', 'Nissan', 12, 'nissan_urvan.png', 'unavailable', '2024-11-14 15:37:59', '2024-11-18 23:14:36'),
-(6, '1f501a8f7c8c6c8e42db06535f48d918', 'Vito', 'Mercedes-Benz', 10, 'mercedes_benz_vito.png', 'available', '2024-11-14 15:37:59', '2024-11-16 12:57:16'),
-(7, '3b66edfcdeb13d168723f5a22764dabb', 'Sprinter', 'Mercedes-Benz', 16, 'mercedes_benz_sprinter.png', 'available', '2024-11-14 15:37:59', '2024-11-16 12:57:38'),
-(8, 'abc5bfd02c44fc7f622b5dba3baa6d91', 'Grand Starex', 'Hyundai', 11, 'hyundai_grand_starex.png', 'unavailable', '2024-11-14 15:37:59', '2024-11-18 23:18:51'),
-(9, '46512f243df874024ee37540d345a581', 'Master', 'Renault', 13, 'renault_master.png', 'available', '2024-11-14 15:37:59', '2024-11-16 12:58:04');
+(14, '993da4dba22099e279c7d23501e65bd2', 'HiAce', 'Toyota', 17, 'file_675a946b3ca6a7.00025801.png', 'available', '2024-12-12 15:44:43', '2024-12-12 15:44:43');
 
 --
 -- Indexes for dumped tables
@@ -170,13 +162,13 @@ ALTER TABLE `messages`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `vans`
 --
 ALTER TABLE `vans`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -232,23 +232,23 @@ jQuery(document).ready(function () {
         let fare = 0;
 
         switch (destination) {
-            case "Oras":
-                fare = 100;
-                break;
             case "Dolores":
                 fare = 50;
                 break;
-            case "Taft":
-                fare = 50;
-                break;
-            case "Sulat":
+            case "Can-Avid":
                 fare = 100;
                 break;
-            case "San Julian":
+            case "Taft":
                 fare = 150;
                 break;
-            case "Borongan":
+            case "Sulat":
                 fare = 200;
+                break;
+            case "San Julian":
+                fare = 250;
+                break;
+            case "Borongan":
+                fare = 300;
                 break;
             default:
                 fare = 0;
@@ -321,23 +321,23 @@ jQuery(document).ready(function () {
         let fare = 0;
 
         switch (destination) {
-            case "Oras":
-                fare = 100;
-                break;
             case "Dolores":
                 fare = 50;
                 break;
-            case "Taft":
-                fare = 50;
-                break;
-            case "Sulat":
+            case "Can-Avid":
                 fare = 100;
                 break;
-            case "San Julian":
+            case "Taft":
                 fare = 150;
                 break;
-            case "Borongan":
+            case "Sulat":
                 fare = 200;
+                break;
+            case "San Julian":
+                fare = 250;
+                break;
+            case "Borongan":
+                fare = 300;
                 break;
             default:
                 fare = 0;
@@ -462,7 +462,7 @@ jQuery(document).ready(function () {
     $(".book_now").click(function () {
         const van_id = $(this).attr("van_id");
 
-        $("#new_booking_modal_origin").val("Can-Avid Terminal");
+        $("#new_booking_modal_origin").val("Oras Terminal");
         $("#new_booking_modal_van_id").val(van_id);
 
         $("#new_booking_modal").modal("show");

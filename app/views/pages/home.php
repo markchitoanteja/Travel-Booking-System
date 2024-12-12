@@ -7,7 +7,7 @@
             <div class="col-lg-8 ftco-animate">
                 <div class="text w-100 text-center mb-md-5 pb-md-5">
                     <h1 class="mb-4">Quick &amp; Convenient Way to Book Public Transport</h1>
-                    <p style="font-size: 18px;">Find and reserve seats on public utility vehicles across the Can-Avid with ease and comfort. Safe travel is just a few clicks away.</p>
+                    <p style="font-size: 18px;">Find and reserve seats on public utility vehicles across the Eastern Samar with ease and comfort. Safe travel is just a few clicks away.</p>
                 </div>
             </div>
         </div>
@@ -25,14 +25,14 @@
                             <h2>Book Your PUV Ride</h2>
                             <div class="form-group">
                                 <label for="new_booking_origin" class="label">Origin</label>
-                                <input type="text" class="form-control" id="new_booking_origin" placeholder="Enter pick-up location" value="Can-Avid Terminal" required readonly>
+                                <input type="text" class="form-control" id="new_booking_origin" placeholder="Enter pick-up location" value="Oras Terminal" required readonly>
                             </div>
                             <div class="form-group">
                                 <label for="new_booking_destination" class="label">Destination</label>
                                 <select class="form-control" id="new_booking_destination" required>
                                     <option value selected disabled>Select drop-off location</option>
-                                    <option class="text-dark" value="Oras">Oras</option>
                                     <option class="text-dark" value="Dolores">Dolores</option>
+                                    <option class="text-dark" value="Can-Avid">Can-Avid</option>
                                     <option class="text-dark" value="Taft">Taft</option>
                                     <option class="text-dark" value="Sulat">Sulat</option>
                                     <option class="text-dark" value="San Julian">San Julian</option>
@@ -144,7 +144,7 @@
                     <span class="subheading">About Us</span>
                     <h2 class="mb-4">Welcome to Grand Tours</h2>
 
-                    <p>We provide a reliable platform to book Public Utility Vans across the Can-Avid. Our mission is to make travel easier, safer, and more convenient, connecting you to quality transport options wherever you need to go.</p>
+                    <p>We provide a reliable platform to book Public Utility Vans across the Eastern Samar. Our mission is to make travel easier, safer, and more convenient, connecting you to quality transport options wherever you need to go.</p>
                     <p>Whether you're planning a family trip, a group outing, or just need a convenient way to travel, Grand Tours is here to help. Enjoy seamless booking, transparent pricing, and trusted service providers, all at your fingertips.</p>
                     <p><a href="vans" class="btn btn-primary py-3 px-4">Find a Van</a></p>
                 </div>

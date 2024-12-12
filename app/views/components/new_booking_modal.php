@@ -40,8 +40,8 @@
                                     <label for="new_booking_modal_destination">Destination</label>
                                     <select class="form-control" id="new_booking_modal_destination" required>
                                         <option value selected disabled>Select drop-off location</option>
-                                        <option value="Oras">Oras</option>
                                         <option value="Dolores">Dolores</option>
+                                        <option value="Can-Avid">Can-Avid</option>
                                         <option value="Taft">Taft</option>
                                         <option value="Sulat">Sulat</option>
                                         <option value="San Julian">San Julian</option>

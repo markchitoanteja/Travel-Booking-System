@@ -20,7 +20,7 @@
                     <span class="subheading">About Us</span>
                     <h2 class="mb-4">Welcome to Grand Tours</h2>
 
-                    <p>We provide a reliable platform to book Public Utility Vans across the Can-Avid. Our mission is to make travel easier, safer, and more convenient, connecting you to quality transport options wherever you need to go.</p>
+                    <p>We provide a reliable platform to book Public Utility Vans across the Eastern Samar. Our mission is to make travel easier, safer, and more convenient, connecting you to quality transport options wherever you need to go.</p>
                     <p>Whether you're planning a family trip, a group outing, or just need a convenient way to travel, Grand Tours is here to help. Enjoy seamless booking, transparent pricing, and trusted service providers, all at your fingertips.</p>
                     <p><a href="vans" class="btn btn-primary py-3 px-4">Find a Van</a></p>
                 </div>

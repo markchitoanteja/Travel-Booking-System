@@ -1,4 +1,18 @@
-<?php $database = new Database() ?>
+<?php
+$database = new Database();
+
+function hasInternetConnection()
+{
+    $connection = @fsockopen("www.google.com", 80);
+    if ($connection) {
+        fclose($connection);
+
+        return true;
+    } else {
+        return false;
+    }
+}
+?>
 
 <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('assets/images/<?= session("page") ?>.png');" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
@@ -22,7 +36,7 @@
                             <div class="icon mr-3">
                                 <span class="icon-map-o"></span>
                             </div>
-                            <p><span>Address:</span> Can-Avid, Eastern Samar</p>
+                            <p><span>Address:</span> Oras, Eastern Samar</p>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -65,7 +79,12 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-md-12">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.6952719734827!2d125.44131357410467!3d11.99557493552667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3309130f0495af71%3A0x78fd50ec1e2ded7d!2sEastern%20Samar%20State%20University%20-%20Can-Avid%20Campus!5e0!3m2!1sen!2sph!4v1731547978719!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <?php if (hasInternetConnection()): ?>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.5996842007694!2d125.43905807410695!3d12.139519332576434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33096efa45625b25%3A0x437c2fabacb0b480!2sGrand%20Tours%20Oras%20Terminal!5e0!3m2!1sen!2sph!4v1733449209511!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <?php else: ?>
+                    <img src="assets/images/offline-map.png" title="Connect to the internet to use the actual Google Map API.">
+                    <h5 class="text-warning">Warning: Connect to the internet to use the actual Google Map API.</h5>
+                <?php endif ?>
             </div>
         </div>
     </div>
